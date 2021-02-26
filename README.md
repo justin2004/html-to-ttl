@@ -1,7 +1,8 @@
 # convert html to triples (jankily)
 
 ## prepare
-`docker build -t justin2004/html-to-ttl .`
+- clone this repo
+- `docker build -t justin2004/html-to-ttl .`
 
 ## examples
 `curl 'http://www.google.com'| docker run --rm -i justin2004/html-to-ttl > google.ttl`
