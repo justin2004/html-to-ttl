@@ -1,5 +1,4 @@
-# convert html to triples
-#### jankily
+# convert html to triples (jankily)
 
 ## prepare
 `docker build -t justin2004/html-to-ttl .`
