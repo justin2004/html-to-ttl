@@ -1,5 +1,9 @@
 # convert html to triples (jankily)
 
+## prereqs
+- have docker installed
+- have curl installed or some html files
+
 ## prepare
 - clone this repo
 - `docker build -t justin2004/html-to-ttl .`
